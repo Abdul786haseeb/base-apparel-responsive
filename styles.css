@@ -1,0 +1,109 @@
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+/*---- 320 PX -----   */
+.herodesk{display: none;}
+body{background-image: url(bg-pattern-desktop.svg);}
+.logo-mobile{padding-left: 9px;margin: 18px;
+              width: 95px;}
+.hero-mobile{
+    width: 100%;height: 35vh;
+} 
+
+.were{text-align: center;
+     font-size: 1.8em;letter-spacing: .2em;padding: 30px;}
+
+.werr{color: rgb(210, 171, 172);font-weight: 300;}
+ .son{font-weight: 600;color: rgb(66, 40, 44);}
+ .comm{font-weight: 600;color: rgb(66, 40, 44);}
+
+.parr{font-size: .7em;text-align: center;line-height: 18px;
+font-weight: 600;color:rgb(218, 184, 189) ;}
+
+::placeholder{color: rgb(219, 191, 196);}
+
+
+
+ 
+.email{height: 6vh;width: 75vw;padding-left: 1.3em;border-radius: 2em;
+border-color: rgb(238, 203, 200);background-color: transparent;}
+.btn{height: 6vh;width: 16vw;border-radius: 2em;margin: -50px;
+color: white;background-color: rgb(245, 173, 173);border: none;}
+.box{padding-left: 2.5em;padding-top: 1em;}
+
+
+
+
+@media only screen and (min-width:600px){
+
+   
+
+    *{padding: 0%;margin:0%;}
+    .were{letter-spacing: .5em;}
+      .hero-mobile{height: 14em;}
+    .parr{font-size: .9em;letter-spacing: 1px;}
+
+    body{background-image: url(bg-pattern-desktop.svg);}
+    .email-fld{height: 7.3vh;width: 75%;}
+   
+}
+
+
+@media only screen and (min-width:1000px){
+    *{padding: 0%;margin:0%;}
+.hero-mobile{display: none;}
+
+body{background-image: url(bg-pattern-desktop.svg);}
+
+   .logo-mobile{width: 15em;padding-left: 8em;
+padding-top: 2.3em;}
+
+   .were{text-align: justify;padding-left: 3em;
+padding-top: .3em;font-size: 3em;letter-spacing: .3em;
+line-height: 1.1em;padding-top: 2em;}
+
+   .parr{text-align: justify;padding-left: 12.5em;
+    font-size: 12px;color:rgb(209, 171, 171) ;}
+
+    
+
+   .herodesk{display: flex;float: right;
+   width: 40%;height: 100vh;}
+
+   .email{height: 7.5vh;width: 28vw;padding-left: 1.5em;border-radius: 2.2em;
+border-color: rgb(236, 208, 208);background-color: transparent;}
+.btn{height: 7.5vh;width: 7vw;border-radius: 2em;margin: -40px; background-color: linear-gradient(to right,rgb(245, 178, 179),rgb(240, 154, 154));
+color: white;border: none;}
+.box{padding-left: 9em;padding-top: 1.5em;
+   }
+  
+}
+
+@media only screen and (min-width:1024px) and (max-width:1100px){
+    .herodesk{float: right;
+        width: 50vw;height: 100vh;}
+
+     .logo-mobile{width: 14em;padding-left: 5em;}
+      
+     .were{padding-left: 2.1em;}
+
+     .parr{padding-left: 9em;}
+      
+     .email{font-size: 17px;width: 30vw;background-color: transparent;}
+     .btn{width: 6em;margin: -70px;height: 7.7vh;}
+     .box{padding-left: 6em;padding-top: 2em;}
+    
+    }
+
+    @media only screen and (min-width:1440px){
+        .logo-mobile{width: 20em;}
+        .were{font-size: 5em;letter-spacing: .2em;padding-left: 1.8em;}
+        .parr{font-size:18px;line-height: 22px;padding-left:8em ;}
+        .email{font-size: 20px;}
+        .btn{margin: -64px;border-radius: 4em; background: linear-gradient(to right,rgb(248, 196, 195,),rgb(243, 146, 146,));}
+       
+        
+    }
+
